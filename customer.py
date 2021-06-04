@@ -20,3 +20,4 @@ class Customer:
 
     def setphone(self, phone):
         self.phone=phone   
+        

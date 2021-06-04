@@ -13,7 +13,8 @@ class TestCustomer(unittest.TestCase):
         self.assertEqual(self.item.id,133) 
 
     def test_email(self):
-        self.assertEqual(self.item.email,'jen@gmail.com')        
+        self.assertEqual(self.item.email,'jen@gmail.com')       
+         
  
 
 

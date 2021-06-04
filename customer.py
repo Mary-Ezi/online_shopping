@@ -1,10 +1,22 @@
 class Customer:
 
-    def __init__(self,phoneNumber):
-         self.phoneNumber=phoneNumber
+    def __init__(self, id, name, email,phone):
+        self.id=id
+        self.name=name
+        self.email=email
+        self.phone=phone
+    
+    def getId(self):
+        return self.id
+    
+    def getName(self):
+        return self.name
+    
+    def getEmail(self):
+        return self.email
 
-    def getphoneNumber(self):
-        return self.phoneNumber
+    def getphone(self):
+        return self.phone
 
-    def setphoneNumber(self, phoneNumber):
-        self.phoneNumber=phoneNumber   
+    def setphone(self, phone):
+        self.phone=phone   

@@ -8,9 +8,6 @@ class ShoppingCart():
         self.items = []
         self.date = datetime.date.today()
         self.time = datetime.datetime.now()
-
-    def getItemId(self):
-        return self.id
     
     def addItem(self, item):
         self.items.append(item)
